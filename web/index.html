@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Daniel Santos">
+        <!-- Add some styles CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+        <!-- Add some JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    </head>
+    <body>
+        <h1> Message System </h1> <br>
+        <form action ="ProcessRequest.jsp" method ="post">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input  id="name"  name ="name" type="text" class="validate">
+                    <label class="active" for="first_name2">First Name</label>
+                </div>
+            </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action"> submit
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+
+    </body>
+</html>
