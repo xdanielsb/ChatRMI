@@ -1,3 +1,4 @@
+import Interface.InterfaceRMI;
 import java.rmi.Naming;
 /**
  *
